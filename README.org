@@ -1,0 +1,23 @@
+#+TITLE: XState-based middleware for [[https://docs.furhat.io/realtime-api/events][Furhat Realtime API]]
+
+The goal of this project is to create a middleware compatible with applications that use [[https://github.com/vladmaraev/speechstate][SpeechState]], to make them work with Furhat. We will need to extend the number of events to allow for gestures and other features not supported by SpeechState.
+
+Progress:
+- [ ] Global setup (face config, voice providers, etc.)
+- [-] Speak
+  - [X] Basic speaking
+  - [ ] Voice configuration
+  - [ ] Speak from data stream
+- [ ] Listen
+- [ ] ...
+
+
+* Get started
+1. Install the dependencies:
+   #+begin_src sh
+     npm i
+   #+end_src
+2. Run the tests:
+   #+begin_src sh
+     npm test
+   #+end_src
